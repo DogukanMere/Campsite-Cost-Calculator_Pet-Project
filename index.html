@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Campsite Cost Calculator</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="instruction">
+        <h1>CAMPSITE COST CALCULATOR</h1>
+        <h2>Welcome Camper !</h2>
+        <p>
+          This calculator helps you to find your total cost in advance based on
+          the information provided.
+        </p>
+        <p>
+          There are 3 different-size campsites and each campsite has differences
+          in terms of daily cost, daily needed firewood bag as well as minimum
+          and maximum capacity.
+        </p>
+        <p>Below you can see details for campsites!</p>
+        <br />
+        <p class="starting">After checking the table, please enter:</p>
+        <p class="starting">
+          1. Enter the total number of camper(s) attending with you.
+        </p>
+        <p class="starting">2. Enter the total length of stay (day)</p>
+        <p class="starting">
+          <i class="fa-solid fa-fire-flame-curved"></i> A bag of firewood costs
+          $6 per day
+        </p>
+      </div>
+      <div class="features">
+        <div class="features-small">
+          <div class="inner">
+            <div>
+              <i class="fa-solid fa-campground"></i>
+            </div>
+            <u>SMALL</u>
+            <u>(per day)</u>
+            <span>Cost: $40</span>
+            <span>Needed firewood: 1 bag</span>
+            <span>Capacity: 1-3 camper(s)</span>
+          </div>
+        </div>
+        <div class="features-regular">
+          <div class="inner">
+            <div>
+              <i class="fa-solid fa-campground"></i>
+              <i class="fa-solid fa-campground"></i>
+            </div>
+            <u>REGULAR</u>
+            <u>(per day)</u>
+            <span>Cost: $70</span>
+            <span>Needed firewood: 2 bags</span>
+            <span>Capacity: 4-7 campers</span>
+          </div>
+        </div>
+        <div class="features-large">
+          <div class="inner">
+            <div>
+              <i class="fa-solid fa-campground"></i>
+              <i class="fa-solid fa-campground"></i>
+              <i class="fa-solid fa-campground"></i>
+            </div>
+            <u>LARGE</u>
+            <u>(per day)</u>
+            <span>Cost: $120</span>
+            <span>Needed firewood: 3 bags</span>
+            <span>Capacity: 8-14 campers</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main id="camping">
+      <div class="flex-container">
+        <div class="flex-left">
+          <img src="./img/camp.svg" alt="" />
+          <form action="#" method="get" name="formCalculate">
+            <div class="people">
+              <label for="totalNum">Total camper:</label>
+              <input type="number" id="totalNum" name="totalNum" />
+            </div>
+            <div class="days">
+              <label for="totalDay">Total length of stay (day)</label>
+              <input type="number" id="totalDay" name="totalDay" />
+            </div>
+            <button class="button" type="submit">Calculate</button>
+          </form>
+        </div>
+        <div class="flex-right">
+          <div class="result1">
+            <img src="./img/camp2.svg" alt="" />
+            <h3>Required Campsite(s)</h3>
+            <p>Small size campsite: <small class="small"></small></p>
+            <p>Regular size campsite: <small class="regular"></small></p>
+            <p>Large size campsite: <small class="large"></small></p>
+          </div>
+          <div class="line"></div>
+          <div class="result2">
+            <h3>Cost Summary</h3>
+            <p>Cost of campsite(s): <small class="campCost"></small></p>
+            <p>
+              Cost of firewood:
+              <small class="woodCost"></small>
+            </p>
+            <p>Total cost: <small class="costTotal"></small></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/project.js"></script>
+  </body>
+</html>
