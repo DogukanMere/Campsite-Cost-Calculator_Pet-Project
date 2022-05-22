@@ -1,19 +1,19 @@
 # Campsite-Cost-Calculator_Pet-Project
 
-This project is created to calculate the cost of the duration of camping in advance based on the information given by users.
+//This project was intended to estimate the cost of camping for a specific period of time based on information provided by users.
 
-By using user interface, providing the number of campers and the lenght of duration will calculate your cost consedering one more factor which is firewood.
+By using the user interface and entering the number of campers and the length of stay, your cost will be calculated, taking into account one more factor: firewood.
 
-System gives $6 value for each firewood bag, so it will be considered one of the expenses as well.
+Each firewood bag has a $6 value in the system, thus it will be counted as an expense.
 
-System provides the most afforable result.
+The system produces the most cost-effective outcome.
 
-There are 3 sizes; small, regular, and large respectively.
+Small, regular, and large are the three sizes available.
 
-Each campsite has different capacity, cost, and needed firewood bag.
+Each campsite has a varied capacity, price, and firewood bag requirement.
 
-Here is the link to try it out:
 
-https://phenomenal-kitten-e124c4.netlify.app/
+//Here's where you can try it out:
+Dogukan Mere, 2022 https://phenomenal-kitten-e124c4.netlify.app/
 
 ©Dogukan Mere, 2022
