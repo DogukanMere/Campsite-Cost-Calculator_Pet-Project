@@ -12,8 +12,6 @@ Small, regular, and large are the three sizes available.
 
 Each campsite has a varied capacity, price, and firewood bag requirement.
 
-
-//Here's where you can try it out:
-https://phenomenal-kitten-e124c4.netlify.app/
+//Here's where you can try it out: https://phenomenal-kitten-e124c4.netlify.app/
 
 ©Dogukan Mere, 2022
